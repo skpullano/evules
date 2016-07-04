@@ -52,7 +52,7 @@ module.exports = {
       {
         test: /\.jsx?$/,
         loaders: ['react-hot', 'babel'],
-        include: PATHS.app
+        include: PATHS.app,
       },
       {
         test: /\.scss$/,
